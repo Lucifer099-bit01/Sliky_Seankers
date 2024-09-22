@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cf95f37cea.js" crossorigin="anonymous"></script>
+    <title>Seanker | Hood</title>
+</head>
+
+<body>
+    <div class="cart-box">
+        <div class="head">
+            <h4>cart</h4>
+            <img src="images/icon-close.svg" alt="" class="cartclose">
+        </div>
+        <div class="line"></div>
+        <div class="empty">
+            <h6>Your Cart is Empty</h6>
+        </div>
+        <div class="finalcart">
+            <div class="finalcartimg">
+                <img width="45" src="images/image-product-1-thumbnail.jpg" alt="">
+            </div>
+            <div class="main-finalcart">
+                <div class="upper">Fall Limited Edition Sneakers</div>
+                <div class="lower">
+                    <div class="total">
+                        <span id="calulate">$125 x 3</span>
+                        <span id="total"> $375</span>
+                    </div>
+                </div>
+            </div>
+            <img class="clear-cart" src="images/icon-delete.svg" alt="">
+        </div>
+        <button class="CheckOut">CheckOut</button>
+    </div>
+    </div>
+    <div class="photo-gallery">
+        <div class="prev">
+            <img id="prev" src="images/icon-previous.svg" alt="">
+        </div>
+        <div class="img-slider">
+            <span><img width="380" src="images/image-product-1.jpg" alt=""></span>
+            <span><img width="380" src="images/image-product-2.jpg" alt=""></span>
+            <span><img width="380" src="images/image-product-3.jpg" alt=""></span>
+            <span><img width="380" src="images/image-product-4.jpg" alt=""></span>
+        </div>
+        <div class="next">
+            <img id="next" src="images/icon-next.svg" alt="">
+        </div>
+        <div class="close">
+            <img src="images/icon-close.svg" alt="">
+        </div>
+    </div>
+    <header>
+        <nav class="nav">
+            <div class="left">
+                <img src="images/logo.svg" alt="">
+                <ul>
+                    <li><a href="0">Collections</a></li>
+                    <li><a href="0">Men</a></li>
+                    <li><a href="0">Women</a></li>
+                    <li><a href="0">About</a></li>
+                    <li><a href="0">Contact</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="cartimg">
+                    <img id="cart" src="images/icon-cart.svg" alt="">
+                    <span id="cartItem">3</span>
+                </div>
+                <img id="profile" width="45px" src="images/image-avatar.png" alt="">
+            </div>
+        </nav>
+        <div class="seprate"></div>
+    </header>
+    <main class="main">
+        <section class="sidebar">
+            <div class="main-img"><img id="cover" src="images/image-product-1.jpg" alt="">
+            </div>
+            <div class="imgs">
+                <div class="img-list" id="1">
+                    <img src="images/image-product-1-thumbnail.jpg" alt="">
+                </div>
+                <div class="img-list" id="2">
+                    <img src="images/image-product-2-thumbnail.jpg" alt="">
+                </div>
+                <div class="img-list" id="3">
+                    <img src="images/image-product-3-thumbnail.jpg" alt="">
+                </div>
+                <div class="img-list" id="4">
+                    <img src="images/image-product-4-thumbnail.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="content">
+            <h3>Sneaker Company</h3>
+            <h1>Fall Limited Edition<br>Sneakers</h1>
+            <p>These low-profile sneakers are your perfect casual wear <br> companion. Featuring a
+                durable rubber outer sole, they’ll <br> withstand everything the weather can offer.</p>
+            <div class="price">
+                <h2>$125.00</h2>
+                <span>50%</span>
+            </div>
+            <span class="actp">$250.00</span>
+            <div class="btns">
+                <div class="count">
+                    <img id="sub" src="images/icon-minus.svg" alt="">
+                    <span id="counter">0</span>
+                    <img id="add" src="images/icon-plus.svg" alt="">
+                </div>
+                <button class="addcart"><img src="images/icon-lastcart.svg" width="18" alt="">Add to Cart</button>
+            </div>
+            <span id="neg-counter">Please add Sneakers First</span>
+        </section>
+    </main>
+    <div id="toastBox"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
