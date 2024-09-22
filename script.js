@@ -155,6 +155,8 @@ Checkout.addEventListener("click", () => {
     finalcart.style.display = "none";
     Checkout.style.display = "none";
     empty.style.display = "flex";
+    cartcount.style.display = "none";
+    count.innerHTML = '0';
 })
 
 
