@@ -152,6 +152,9 @@ clearcart.addEventListener("click", () => {
 
 Checkout.addEventListener("click", () => {
     showToast();
+    finalcart.style.display = "none";
+    Checkout.style.display = "none";
+
 })
 
 
